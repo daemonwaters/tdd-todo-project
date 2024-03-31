@@ -1,0 +1,28 @@
+.inbox {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 70%;
+    padding: 1rem;
+    background: #d9d7d7;
+    border-radius: 4px;
+}
+
+
+.empty {
+    display: grid;
+    place-items: center;
+    svg {
+        color: rgba(16, 228, 90, 0.817);
+        font-size: 2rem;
+    }
+}
+
+.error{
+    display: grid;
+    place-items: center;
+    svg {
+        font-size: 2rem;
+        color: red;
+    }
+}

@@ -1,0 +1,22 @@
+.todo {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem;
+  background: #f2f2f2;
+  justify-content: space-between;
+  border-radius: 4px;
+  border: solid 1px rgb(69, 136, 231);
+  overflow: hidden;
+
+  p {
+    max-width: 75%;
+    word-wrap: break-word;
+    word-break: normal;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

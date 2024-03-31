@@ -1,0 +1,11 @@
+.button {
+  border: solid 1px rgb(69, 136, 231);
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  border-radius: 6px;
+  gap: 0.5rem;
+}
